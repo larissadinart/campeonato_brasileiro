@@ -18,8 +18,8 @@ export default {
 </script>
 
 <style scoped>
-    .inicio-imagem mb-4{
-        border-radius: 10px ;
+    .inicio-imagem {
+        border-radius: 8px ;
     }
 
 
