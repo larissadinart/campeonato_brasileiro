@@ -43,18 +43,19 @@
   </div>
 
     <v-main>
-    
+        <Primeiraparte/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-
+import Primeiraparte from './components/PrimeiraParte.vue'
 
 export default {
   name: 'App',
 
   components: {
+    Primeiraparte,
   },
 
   data: () => ({
