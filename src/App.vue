@@ -1,22 +1,22 @@
 <template>
   <v-app>
-    <app-top-bar/>
+    <AppTopBar/>
+   
+    
 
    <v-main>
-        <Primeiraparte/>
+        <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Primeiraparte from './components/PrimeiraParte.vue'
 import AppTopBar from './components/shared/AppTopBar.vue'
 
 export default {
   name: 'App',
 
   components: {
-    Primeiraparte,
     AppTopBar,
   },
 

@@ -11,10 +11,11 @@
 
 <script>
 export default {
-    setup() {
-        
-    },
+    name:'PrimeiraParte',
+
 }
+
+
 </script>
 
 <style scoped>
